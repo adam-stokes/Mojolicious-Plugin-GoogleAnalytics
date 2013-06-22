@@ -51,7 +51,7 @@ Mojolicious::Plugin::GoogleAnalytics - Mojolicious Plugin
 
   # In your layout template
   <%= analytics 'UA-32432-1' %>
-  </body> <!-- Make sure its just before closing body tag -->
+  </head> <!-- Make sure its just before closing head tag -->
 
 
 =head1 DESCRIPTION
