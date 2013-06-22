@@ -1,7 +1,7 @@
 package Mojolicious::Plugin::GoogleAnalytics;
 use Mojo::Base 'Mojolicious::Plugin';
 
-our $VERSION = '0.01';
+# VERSION
 
 sub register {
   my ($self, $app) = @_;
