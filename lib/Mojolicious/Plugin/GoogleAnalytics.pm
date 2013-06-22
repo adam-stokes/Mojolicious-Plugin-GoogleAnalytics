@@ -14,8 +14,8 @@ sub register {
             my $c            = shift;
             my $analytics_id = shift;
 
-            die "No analytics ID defined" unless exists $analytics_id;
-	    return b(<<"ENDANALYTICS")->squish;
+            die "No analytics ID defined" unless defined $analytics_id;
+            return b(<<"ENDANALYTICS");
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
