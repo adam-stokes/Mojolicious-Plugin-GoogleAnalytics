@@ -60,7 +60,7 @@ Mojolicious::Plugin::GoogleAnalytics - Mojolicious Plugin
   plugin 'GoogleAnalytics';
 
   # In your layout template
-  <%= analytics 'UA-32432-1' %>
+  <%= analytics_inc 'UA-32432-1' %>
   </head> <!-- Make sure its just before closing head tag -->
 
 
