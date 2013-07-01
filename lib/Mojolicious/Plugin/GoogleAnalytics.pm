@@ -20,8 +20,9 @@ sub register {
 
             die "No analytics ID defined" unless defined $analytics_id;
             $self->render(
-                template => $self->analytics->template,
-                partial  => 1,
+                template     => $self->analytics->template,
+                partial      => 1,
+                analytics_id => $analytics_id,
             );
         }
     );
@@ -35,7 +36,7 @@ __DATA__
 
 %= javascript begin
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', '${analytics_id}']);
+  _gaq.push(['_setAccount', '<%= $analytics_id %>']);
   _gaq.push(['_trackPageview']);
 
   (function() {
