@@ -12,6 +12,8 @@ Makefile.old
 MANIFEST.bak
 META.yml
 MYMETA.yml
+MYMETA.json
+_build_params
 nytprof.out
 pm_to_blib
 Mojolicious-Plugin-GoogleAnalytics*

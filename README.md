@@ -11,7 +11,7 @@ Mojolicious::Plugin::GoogleAnalytics - Mojolicious Plugin
     plugin 'GoogleAnalytics';
 
     # In your layout template
-    <%= analytics_inc 'UA-32432-1' %>
+    <%= analytics_inc 'UA-32432-1', 'example.com', 1 %>
     </head> <!-- Make sure its just before closing head tag -->
 
 
@@ -30,6 +30,16 @@ Mojolicious::Plugin::GoogleAnalytics - Mojolicious Plugin
     $plugin->register(Mojolicious->new);
 
 Register plugin in [Mojolicious](http://search.cpan.org/perldoc?Mojolicious) application.
+
+# OPTIONS
+
+## Track Subdomains
+
+Put the domain which qualifies any subdomains you wish to track, eg. blog.example.com, apps.example.com will have the second arguement set to 'example.com'
+
+## Multiple top level domains
+
+Default is set to 1 to allow domains such as example.fr, example.cn, and example.com
 
 # AUTHOR
 

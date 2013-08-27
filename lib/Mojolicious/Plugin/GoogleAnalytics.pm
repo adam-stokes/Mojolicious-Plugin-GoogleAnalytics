@@ -2,7 +2,7 @@ package Mojolicious::Plugin::GoogleAnalytics;
 
 use Mojo::Base 'Mojolicious::Plugin';
 
-our $VERSION = '1.002';
+our $VERSION = '1.003';
 
 has 'template' => 'analytics_template';
 
@@ -25,7 +25,7 @@ sub register {
                 partial               => 1,
                 analytics_id          => $analytics_id,
                 domain_sub            => $domain_sub,
-                allow_multi_top_level => $allow_multi_top_level || 1,
+                allow_multi_top_level => $allow_multi_top_level || undef,
             );
         }
     );
