@@ -1,0 +1,5 @@
+Revision history for Mojolicious-Plugin-GoogleAnalytics
+
+{{$NEXT}}
+	- Support sub-domains
+	- Support multiple top level domains
