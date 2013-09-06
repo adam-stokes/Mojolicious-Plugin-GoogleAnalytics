@@ -59,7 +59,7 @@
          "web" : "https://github.com/battlemidget/Mojolicious-Plugin-GoogleAnalytics"
       }
    },
-   "version" : "1.003",
+   "version" : "1.004",
    "x_contributors" : [
       "Adam Stokes <adam.stokes@ubuntu.com>"
    ]

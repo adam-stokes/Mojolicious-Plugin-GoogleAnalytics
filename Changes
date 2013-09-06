@@ -1,6 +1,8 @@
 Revision history for Mojolicious-Plugin-GoogleAnalytics
 
 {{$NEXT}}
+
+1.004  2013-09-05 21:23:37 EDT
   - Fixes dependency list (GH: #1)
 
 1.003  2013-08-27 00:45:52 EDT
