@@ -56,3 +56,7 @@ Licensed under the same terms as Perl.
 # SEE ALSO
 
 [Mojolicious](http://search.cpan.org/perldoc?Mojolicious), [Mojolicious::Guides](http://search.cpan.org/perldoc?Mojolicious::Guides), [http://mojolicio.us](http://mojolicio.us).
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/battlemidget/mojolicious-plugin-googleanalytics/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
