@@ -41,7 +41,7 @@ __DATA__
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', '<%= $analytics_id %>']);
   % if ($domain_sub) {
-  _gaq.push(['_setDomainName', <%= $domain_sub %>']);
+  _gaq.push(['_setDomainName', '<%= $domain_sub %>']);
   % }
   % if ($allow_multi_top_level) {
   _gaq.push(['_setAllowLinker', true]);
