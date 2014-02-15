@@ -10,7 +10,7 @@ Build.bat
 Makefile
 Makefile.old
 MANIFEST.bak
-META.yml
+META.json
 MYMETA.yml
 MYMETA.json
 _build_params
